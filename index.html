@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+</head>
+<body>
+    <div class="form-cont">
+        
+        <h1>IP Address Tracker</h1>
+        
+        <form class="form" action="">
+            <input class="ip" type="text">
+            <button class="sub"><img src="./public/icon-arrow.svg" alt=""></button>
+        </form>
+    
+        <div class="info">
+            
+             <div class="info-box">
+                <div class="info-cont">
+                    <label for="">
+                        IP ADDRESS
+                    </label>
+
+                    <label class="content" id="ip_address" for="">
+                        
+                    </label>
+
+                </div>
+             </div>
+
+             <div class="info-box">
+                <div class="info-cont">
+                    <label for="">
+                        LOCATION
+                    </label>
+
+                    <label class="content" id="location" for="">
+                    </label>
+
+                </div>
+             </div>
+
+              <div class="info-box">
+                <div class="info-cont">
+                    <label for="">
+                        TIMEZONE
+                    </label>
+
+                    <label class="content" id="timezone" for="">
+                    </label>
+                    
+                </div>
+              </div>
+
+             <div class="info-box">
+                <div class="info-cont">
+                    <label for="">
+                        ISP
+                    </label>
+
+                    <label class="content" id="isp" for="">
+                    </label>
+                    
+                </div>
+             </div>
+
+        </div>
+
+    </div>
+
+    <div class="cont">
+         <div class="img"></div>
+         <div id="map"></div>
+    </div>
+
+  
+
+    <script src="./app.js"></script>
+
+</body>
+</html>
