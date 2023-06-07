@@ -25,7 +25,6 @@
 }
 
 .sub{
-
     background-color: rgb(41, 41, 41);
     width: 9%;
     height: 100%;
@@ -33,9 +32,13 @@
     padding-bottom:1%;
     outline: none;
     border:none;
+    cursor: pointer;
+    transition: all 200ms;
 }
 
-
+.sub:hover{
+    background-color: rgb(26, 26, 26);
+}
 
 input{
     outline: none;
